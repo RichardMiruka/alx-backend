@@ -1,5 +1,9 @@
 # Caching
 
+> Back-end
+
+![image](https://github.com/RichardMiruka/alx-backend/assets/105627752/de91ac80-0328-45b1-8c29-81a6286efd7a)
+
 ## Resources
 
 * [Cache replacement policies - FIFO]()
