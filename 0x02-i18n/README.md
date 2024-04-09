@@ -2,6 +2,8 @@
 
 > Back-end
 
+Internationalization and Localization, commonly abbreviated I18n and L10n
+
 ## Resources
 
 * [Flask-Babel](https://intranet.alxswe.com/rltoken/0m4Qykp52fFH-dPzlWIdkw)
