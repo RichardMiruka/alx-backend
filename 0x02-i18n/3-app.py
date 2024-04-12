@@ -8,6 +8,8 @@ from flask import (
     request
 )
 from flask_babel import Babel
+
+
 class Config(object):
     """
     Configuration for Babel
@@ -35,7 +37,7 @@ def index() -> str:
     """
     Handles / route
     """
-    return render_template('2-index.html')
+    return render_template('3-index.html')
 
 
 if __name__ == "__main__":
