@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 """
 A simple flask application
 """
@@ -19,9 +19,9 @@ class Config(object):
 
 app = Flask(__name__)
 app.config.from_object(Config)
-babel = Babel(app)
 
-@babel.localeselector
+
+
 def get_locale():
     """
     Select and return best language match based on supported languages
@@ -31,6 +31,7 @@ def get_locale():
         return loc
     return request.accept_languages.best_match(app.config['LANGUAGES'])
 
+babel = Babel(app, locale_selector=get_locale)
 @app.route('/', strict_slashes=False)
 def index() -> str:
     """
