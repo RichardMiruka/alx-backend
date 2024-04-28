@@ -2,6 +2,8 @@
 
 > Back-end
 
+![image](https://github.com/RichardMiruka/alx-backend/assets/105627752/ca6212ca-2220-4d40-8bee-257346b94849)
+
 ## Resources
 
 * [how-to-do-pagination-in-python](https://www.geeksforgeeks.org/how-to-do-pagination-in-python)
